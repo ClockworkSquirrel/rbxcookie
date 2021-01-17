@@ -62,7 +62,7 @@ FetchCookie()
 
 # Limitations
 * At present, the `RobloxStudio` method can only be used on a Windows device. This is because Roblox Studio stores cookies in the Windows Registry.
-* When using the `GoogleChrome` method, macOS users may be prompted to allow node to access the keychain. This is to allow node to read the Google Chrome encryption keys. More details can be found in the [chrome-cookies-secure readme]().
+* When using the `GoogleChrome` method, macOS users may be prompted to allow node to access the keychain. This is to allow node to read the Google Chrome encryption keys. More details can be found in the [chrome-cookies-secure readme](https://github.com/bertrandom/chrome-cookies-secure#limitations).
 
 # API
 rbxcookie exports two classes at present: `RobloxStudio` and `GoogleChrome`. They are both used to fetch cookies from their respective applications.
