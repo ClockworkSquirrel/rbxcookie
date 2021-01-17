@@ -1,0 +1,41 @@
+{
+  "name": "rbxcookie",
+  "version": "0.0.0",
+  "description": "Fetch Roblox cookies for use in Node.js applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClockworkSquirrel/rbxcookie.git"
+  },
+  "keywords": [
+    "roblox",
+    "robloxdev",
+    "cookie",
+    "roblox-cookie",
+    "auth",
+    "roblox-studio",
+    "chrome",
+    "google-chrome",
+    "nodejs"
+  ],
+  "author": "csqrl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClockworkSquirrel/rbxcookie/issues"
+  },
+  "homepage": "https://github.com/ClockworkSquirrel/rbxcookie#readme",
+  "optionalDependencies": {
+    "chrome-cookies-secure": "^1.3.2",
+    "rage-edit": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.21"
+  }
+}
