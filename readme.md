@@ -13,6 +13,8 @@ The recommended way to install rbxcookie is without optional dependencies. This 
     * [~~winreg~~](https://www.npmjs.com/package/winreg) <font color="grey">(broken)</font>
 
 * To enable fetching cookies from Google Chrome, you will need to install the [chrome-cookies-secure](https://www.npmjs.com/package/chrome-cookies-secure) package.
+    * [node-gyp](https://github.com/nodejs/node-gyp) will need to be setup and installed on your system to compile the `chrome-cookies-secure` package.
+
 # Install
 The default install process will install all optional dependencies for this package. To reiterate: the recommended way to install is without optional dependencies, and install only those that you require.
 
